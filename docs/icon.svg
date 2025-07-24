@@ -1,0 +1,7 @@
+<!-- Guarda este contenido en un archivo llamado `icon.svg` -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Fondo: cuadrado redondeado en tu color de tema -->
+  <rect width="64" height="64" rx="12" fill="#4a90e2"/>
+  <!-- Rayo blanco centrado -->
+  <polygon points="34,12 26,36 36,36 30,52 46,20 36,20" fill="#ffffff"/>
+</svg>
