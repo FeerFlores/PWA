@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>PWA Demo</title>
+  <title>PWA Demo con Formulario</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="manifest" href="manifest.json" />
 </head>
@@ -11,6 +11,25 @@
   <div class="container">
     <h1>👋 ¡Bienvenido a tu PWA!</h1>
     <p>Has visitado esta página <span id="visits">0</span> veces.</p>
+
+    <hr/>
+
+    <div class="form-container">
+      <h2>Contáctanos</h2>
+      <form id="contact-form">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Mensaje:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+      <p id="submit-feedback" class="feedback"></p>
+    </div>
   </div>
 
   <script src="main.js"></script>
